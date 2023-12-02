@@ -1,0 +1,243 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('./media/fonts/open-sans/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+    font-family: AltG;
+    src: url('./media/fonts/din1451altG/din1451altG.ttf');
+}
+
+@media(prefers-color-scheme: dark) {
+    .dynamic-theme {
+        --first-background: #393939;
+        --second-background: #2b2b2b;
+        --third-background: #5b5b5b;
+        --shadow-color: #222222;
+        --global-font-color: #fff;
+        --button-color-primary: #5557b3;
+        --button-color-secundary: #55b360;
+    }
+}
+
+@media(prefers-color-scheme: light) {
+    .dynamic-theme {
+        --first-background: #FFFFFF;
+        --second-background: #f0f2f4;
+        --third-background: #e2e2e2;
+        --shadow-color: #c7c7c7;
+        --global-font-color: #fff;
+        --button-color-primary: #5557b3;
+        --button-color-secundary: #5557b3;
+    }
+}
+
+:root {
+    --font-family: 'AltG', Arial, Helvetica, sans-serif;
+    --font-size: 11pt;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--global-font-color);
+    font-family: var(--font-family);
+    font-weight: 100;
+}
+
+body {
+    background-color: var(--first-background);
+}
+
+section.topNavigationBar {
+    display: flex;
+    align-items: center;
+    padding: 1vh 4vw;
+    column-gap: 1rem;
+    width: 100%;
+    position: fixed;
+    background-color: var(--first-background);
+    box-shadow: 0px 6px 4px 0px var(--shadow-color);
+}
+
+img.headerLogo {
+    width: 4vh;
+}
+
+header > section.topHeader {
+    background-image: linear-gradient(340deg, hsl(180 100% 20% / 1),
+                                              hsl(240 100% 20% / 1),
+                                              hsl(300 100% 20% / 1));
+    display: flex;
+    align-items: flex-end;
+    height: 25vh;
+    padding: 4vh 4vw;
+}
+
+header > section.bottomHeader {
+    height: 4vh;
+    padding: 0vh 4vw;
+    padding-top: 4vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Main ===================================================================== */
+
+main {
+    min-height: 15vh;
+}
+
+ul.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2vh 4vw;
+    padding-bottom: 8vh;
+    column-gap: 1.75rem;
+    row-gap: 2vh;
+}
+
+li.pageCardBody {
+    list-style: none;
+    width: 20vw;
+    background-color: var(--second-background);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 6px 0px var(--shadow-color);
+}
+li.pageCardBody:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 12px 4px var(--shadow-color);
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+img.pageCardImage {
+    width: inherit;
+    height: 12vw;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+section.pageCardDetails {
+    padding: 1rem;
+    display: flex;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+section.pageCardDetailsText {
+    display: grid;
+    row-gap: 1rem;
+    width: 75%;
+    height: 8vh;
+}
+
+h4.pageCardShortDescription {
+    max-height: 6vh;
+    overflow: hidden;
+}
+
+button.pageCardPlayButton {
+    width: 64px;
+    height: 48px;
+    font-size: 13pt;
+    background-color: var(--button-color-secundary);
+    padding: 0.75rem;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 1px #2c7735;
+    border: none;
+    border-radius: 1rem;
+}
+button.pageCardPlayButton:hover {
+    box-shadow: 2px 2px 0 1px #2c7735;
+    transform: translate(2px, 2px);
+}
+button.pageCardPlayButton:active {
+    box-shadow: 0px 0px 0 1px #2c7735;
+    transform: translate(4px, 4px);
+}
+
+/* Footer =================================================================== */
+
+section.footer-list {
+    display: grid;
+    row-gap: 2rem;
+    padding: 4vh 4vw;
+    background-color: var(--second-background);
+}
+
+form {
+    display: grid;
+    row-gap: 1rem;
+    margin-top: 0;
+}
+
+form > div {
+    display: grid;
+    row-gap: 0.5rem;
+}
+form > div:last-child {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+input, textarea {
+    background-color: var(--first-background);
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 50vw;
+    resize: none;
+}
+
+input[type='submit'] {
+    width: fit-content;
+    background-color: var(--button-color-primary);
+    color: var(--second-font-color);
+    padding: 0.75rem;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 1px #3b3d82;
+}
+
+section.bottom-footer {
+    display: grid;
+    text-align: center;
+    padding: 2rem 8vw;
+    row-gap: 3rem;
+}
+
+/* Mobile rules ============================================================ */
+
+@media(max-width: 1600px) {
+    li.pageCardBody {
+        width: 28vw;
+    }
+
+    img.pageCardImage {
+        height: 16vw;
+    }
+}
+
+
+@media(max-width: 1024px) {
+    li.pageCardBody {
+        width: 40vw;
+    }
+
+    img.pageCardImage {
+        height: 22vw;
+    }
+}
+
+@media(max-width: 480px) {
+    li.pageCardBody {
+        width: 100%;
+    }
+
+    img.pageCardImage {
+        height: 40vw;
+    }
+}

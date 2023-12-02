@@ -1,0 +1,13 @@
+{
+    "interfaceText" : {
+        "headerTextLeft" : "Making Games Great Again",
+        "headerTextRight" : "To continue to bring joy among players"
+    },
+    "interface-values" : {
+        "form-submit-button" : "Send"
+    },
+    "interface-placeholders" : {
+        "form-email-subject-placeholder" : "Email subject",
+        "form-email-message-placeholder" : "Say something you want to share!"
+    }
+}

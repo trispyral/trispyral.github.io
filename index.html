@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="dynamic-theme">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <title>Trispyral Games Website</title>
+    </head>
+    <body>
+        <section class="topNavigationBar">
+            <img class="headerLogo" src="./media/icons/logo.png"/>
+            <h1 class="topnavTitle">Trispyral Games</h1>
+            <nav>
+                
+            </nav>
+        </section>
+
+        <header>
+            <section class="topHeader">
+                <h2 class="headerText">...</h2>
+            </section>            
+            <section class="bottomHeader">
+                <h3 class="bottomHeaderText">...</h3>
+            </section>
+        </header>
+
+        <main>
+            <ul class="projects-list"></ul>
+        </main>
+
+        <footer id="footer-title-contact">
+            <section class="footer-list">
+                <h2 class="footer-title">
+                    ...
+                </h2>
+
+                <form action="javascript:sendEmail()">
+                    <span class="footer-message"></span>
+                    <div>
+                        <label for="subject" class="form-email-subject">...</label>
+                        <input name="subject" type="text"
+                               class="form-email-subject-placeholder"
+                               placeholder="..."/>
+                    </div>
+                    <div>
+                        <label for="body" class="form-email-body">...</label>
+                        <textarea name="body" rows="8"
+                                  class="form-email-message-placeholder"
+                                  placeholder="..."></textarea>
+                    </div>
+                    <div>
+                        <input value="..." class="form-submit-button" type="submit"/>
+                        <span class="form-email-warning"></span>
+                    </div>
+                </form>
+            </section>
+
+            <section class="bottom-footer">
+                <span>2023 - Trispyral Games</span>
+            </section>
+        </footer>
+    </body>
+
+    <template id="pageCard">
+        <li class="pageCardBody">
+            <img class="pageCardImage"/>
+            <section class="pageCardDetails">
+                <section class="pageCardDetailsText">
+                    <h3 class="pageCardTitle"></h3>
+                    <h4 class="pageCardShortDescription"></h4>
+                </section>
+                <button class="pageCardPlayButton">...</button>
+            </section>
+        </li>
+    </template>
+
+    <script src="./script.js"></script>
+</html>
