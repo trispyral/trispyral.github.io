@@ -14,7 +14,13 @@
         --second-background: #2b2b2b;
         --third-background: #5b5b5b;
         --shadow-color: #222222;
+        --header-background: linear-gradient(340deg, hsl(180 100% 20% / 1),
+                                                     hsl(240 100% 20% / 1),
+                                                     hsl(300 100% 20% / 1));
+
         --global-font-color: #fff;
+        --global-font-color-alternative: #ffffff;
+
         --button-color-primary: #5557b3;
         --button-color-secundary: #55b360;
     }
@@ -22,11 +28,18 @@
 
 @media(prefers-color-scheme: light) {
     .dynamic-theme {
-        --first-background: #FFFFFF;
-        --second-background: #f0f2f4;
+        --first-background: #f0f2f4;
+        --second-background: #FFFFFF;        
         --third-background: #e2e2e2;
-        --shadow-color: #c7c7c7;
-        --global-font-color: #fff;
+
+        --shadow-color: #a2a2a2;
+        --header-background: linear-gradient(340deg, hsl(180 60% 60% / 1),
+                                                     hsl(240 60% 60% / 1),
+                                                     hsl(300 60% 60% / 1));
+
+        --global-font-color: #424242;
+        --global-font-color-alternative: #ffffff;
+        
         --button-color-primary: #5557b3;
         --button-color-secundary: #5557b3;
     }
@@ -40,6 +53,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: none;
     color: var(--global-font-color);
     font-family: var(--font-family);
     font-weight: 100;
@@ -52,12 +66,17 @@ body {
 section.topNavigationBar {
     display: flex;
     align-items: center;
-    padding: 1vh 4vw;
+    padding: 10px 4vw;
     column-gap: 1rem;
     width: 100%;
+    height: 50px;
     position: fixed;
     background-color: var(--first-background);
     box-shadow: 0px 6px 4px 0px var(--shadow-color);
+}
+
+h2.alternateColor {
+    color: var(--global-font-color-alternative);
 }
 
 img.headerLogo {
@@ -65,12 +84,10 @@ img.headerLogo {
 }
 
 header > section.topHeader {
-    background-image: linear-gradient(340deg, hsl(180 100% 20% / 1),
-                                              hsl(240 100% 20% / 1),
-                                              hsl(300 100% 20% / 1));
+    background-image: var(--header-background);
     display: flex;
     align-items: flex-end;
-    height: 25vh;
+    height: 30vh;
     padding: 4vh 4vw;
 }
 
@@ -130,31 +147,34 @@ section.pageCardDetails {
 section.pageCardDetailsText {
     display: grid;
     row-gap: 1rem;
-    width: 75%;
-    height: 8vh;
 }
 
 h4.pageCardShortDescription {
-    max-height: 6vh;
     overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 60px;
 }
 
-button.pageCardPlayButton {
-    width: 64px;
-    height: 48px;
+a.pageCardPlayButton {
+    height: 24px;
     font-size: 13pt;
     background-color: var(--button-color-secundary);
-    padding: 0.75rem;
+    color: var(--global-font-color-alternative);
+    padding: 1rem;
     cursor: pointer;
     box-shadow: 4px 4px 0 1px #2c7735;
     border: none;
     border-radius: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-button.pageCardPlayButton:hover {
+a.pageCardPlayButton:hover {
     box-shadow: 2px 2px 0 1px #2c7735;
     transform: translate(2px, 2px);
 }
-button.pageCardPlayButton:active {
+a.pageCardPlayButton:active {
     box-shadow: 0px 0px 0 1px #2c7735;
     transform: translate(4px, 4px);
 }
@@ -196,7 +216,7 @@ input, textarea {
 input[type='submit'] {
     width: fit-content;
     background-color: var(--button-color-primary);
-    color: var(--second-font-color);
+    color: var(--global-font-color-alternative);
     padding: 0.75rem;
     cursor: pointer;
     box-shadow: 3px 3px 0 1px #3b3d82;
@@ -232,12 +252,17 @@ section.bottom-footer {
     }
 }
 
-@media(max-width: 480px) {
+@media(max-width: 540px) {
     li.pageCardBody {
         width: 100%;
     }
 
     img.pageCardImage {
         height: 40vw;
+    }
+
+    li.pageCardBody:hover {
+        transform: scale(1);
+        box-shadow: 0px 0px 6px 0px var(--shadow-color);
     }
 }

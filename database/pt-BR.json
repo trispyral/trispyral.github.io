@@ -27,31 +27,14 @@
         ],
         "items" : [
             {
-                "name" : "Terrain Generator",
-                "category" : "Tech demo",
-                "imgSrc" : "/media/img/terraingenerator.webp",
-                "shortDescription" : "The Terrain Generator is a tech demo, created to show the capabilites of procedural generation algorithms such as perlin noises",
-                "description" : "<p>The Terrain Generator is a tech demo, created to show the capabilites of procedural generation algorithms such as <a href='https://en.wikipedia.org/wiki/Perlin_noise'>perlin noises</a> to create a terrain simulation. With this, we can create some interesting landscapes with mountains, lakes, beaches and plains. The application offers all range of tools to customize the landscape as you wish, not only the terrain, but also the ambient around. </p><p>Everything is rendered with graphics acceleration, giving the best performance for desktops and mobile phones, directly from the web browser.</p>",
-                "languages" : ["C","C++","OpenGL","SDL","WebAssembly","JavaScript"],
-                "devices" : ["phones","tablets","desktops"],
-                "link" : "https://github.com/Andybf/TerrainGenerator/",
-                "linkLiveDemo" : "https://andybf.github.io/TerrainGenerator/",
+                "name" : "Jump Man",
+                "category" : "Platform Game",
+                "imgSrc" : "/media/img/jumpman.png",
+                "shortDescription" : "Collect the maximum amout of coins in a given time. Watchout for the spikes.",
+                "description" : "<p>A 2D platform game where the objective is to collect the maximum amout of coins in a given time.</p>",
+                "link" : "https://github.com/Andybf/JumpMan/",
+                "linkLiveDemo" : "https://andybf.github.io/JumpMan/",
                 "isLiveDemoEnabled" : true,
-                "isViewSourceEnabled" : true,
-                "isVisible" : true
-            },
-            {
-                "name" : "Open Flappy",
-                "category" : "Jogo online",
-                "imgSrc" : "/media/img/flappy.webp",
-                "shortDescription" : "Uma recriação do famoso jogo Flappy Bird, rodando diretamente do seu navegador.",
-                "description" : "<p>Uma recriação do famoso jogo Flappy Bird, rodando diretamente do seu navegador, adaptado para funcionar no celular ou no computador.</p><p>Créditos para <a href='https://zapsplat.com' target='_blank'>zapsplat.com</a> pelos efeitos sonoros e para <a href='https://opengameart.org/content/flappy-bird' target='_blank'>Peleila@opengameart.org</a> pela arte de jogo.</p>",
-                "languages" : ["JavaScript","HTML","Canvas API"],
-                "devices" : ["phones","tablets","consoles","desktops"],
-                "link" : "https://github.com/Andybf/OpenFlappy/",
-                "linkLiveDemo" : "https://andybf.github.io/OpenFlappy/",
-                "isLiveDemoEnabled" : true,
-                "isViewSourceEnabled" : true,
                 "isVisible" : true
             },
             {
@@ -60,12 +43,31 @@
                 "imgSrc" : "/media/img/snakegame.webp",
                 "shortDescription" : "O famoso jogo da cobrinha, recriado mais uma vez em um plano bi-dimensional texturizado, com um tema retrô de 8-bits",
                 "description" : "<p>O famoso jogo da cobrinha, recriado mais uma vez em um plano bi-dimensional texturizado, com um tema retrô de 8-bits, referenciando a longevidade deste estilo de jogo desde que foi concebido pela primeira vez na década de 70.</p><p>Construído em C++, com a ajuda de biblioteca Icosphere e possibilidade de compilação para ambiente web, podemos combinar a facilidade de acesso em quase qualquer plataforma, seja para telefone e desktop, combinado com o nível de performance oferecida pela aceleração gráfica através da GPU de seu dispositivo.</p><p>Créditos para <a href='https://zapsplat.com' target='_blank'>zapsplat.com</a> pelos efeitos sonoros.</p>",
-                "languages" : ["C","C++","OpenGL","SDL","WebAssembly","JavaScript"],
-                "devices" : ["phones","tablets","desktops"],
                 "link" : "https://github.com/Andybf/SnakeGame",
                 "linkLiveDemo" : "https://andybf.github.io/SnakeGame/SnakeGame/webRelease/",
                 "isLiveDemoEnabled" : true,
-                "isViewSourceEnabled" : true,
+                "isVisible" : true
+            },
+            {
+                "name" : "Terrain Generator",
+                "category" : "Tech demo",
+                "imgSrc" : "/media/img/terrain.png",
+                "shortDescription" : "The Terrain Generator is a tech demo, created to show the capabilites of procedural generation algorithms such as perlin noises",
+                "description" : "<p>The Terrain Generator is a tech demo, created to show the capabilites of procedural generation algorithms such as <a href='https://en.wikipedia.org/wiki/Perlin_noise'>perlin noises</a> to create a terrain simulation. With this, we can create some interesting landscapes with mountains, lakes, beaches and plains. The application offers all range of tools to customize the landscape as you wish, not only the terrain, but also the ambient around. </p><p>Everything is rendered with graphics acceleration, giving the best performance for desktops and mobile phones, directly from the web browser.</p>",
+                "link" : "https://github.com/Andybf/TerrainGenerator/",
+                "linkLiveDemo" : "https://andybf.github.io/TerrainGenerator/",
+                "isLiveDemoEnabled" : true,
+                "isVisible" : true
+            },
+            {
+                "name" : "Open Flappy",
+                "category" : "Jogo online",
+                "imgSrc" : "/media/img/flappy.webp",
+                "shortDescription" : "Uma recriação do famoso jogo Flappy Bird, rodando diretamente do seu navegador.",
+                "description" : "<p>Uma recriação do famoso jogo Flappy Bird, rodando diretamente do seu navegador, adaptado para funcionar no celular ou no computador.</p><p>Créditos para <a href='https://zapsplat.com' target='_blank'>zapsplat.com</a> pelos efeitos sonoros e para <a href='https://opengameart.org/content/flappy-bird' target='_blank'>Peleila@opengameart.org</a> pela arte de jogo.</p>",
+                "link" : "https://github.com/Andybf/OpenFlappy/",
+                "linkLiveDemo" : "https://andybf.github.io/OpenFlappy/",
+                "isLiveDemoEnabled" : true,
                 "isVisible" : true
             },
             {
@@ -74,12 +76,9 @@
                 "imgSrc" : "/media/img/mandelbrot.webp",
                 "shortDescription" : "O experimento do conjunto de Mandelbrot cria uma imagem muito interessante e extremamente complexa apenas fazendo algumas esquações matemáticas.",
                 "description" : "<p>O experimento do conjunto de Mandelbrot cria uma imagem muito interessante e extremamente complexa apenas fazendo algumas esquações matemáticas e desenhando o resultado no plano cartesiano.</p><p>Você pode ler mais sobre fractais <a href='https://pt.wikipedia.org/wiki/Conjunto_de_Mandelbrot'>neste artigo</a> da Wikipedia.</p><p><b>AVISO:</b> a renderização da imagem demanda uma quantidade de processamento que pode deixar a página sem resposta por alguns segundos.<p>",
-                "languages" : ["JavaScript","HTML","CSS","Canvas API"],
-                "devices" : ["desktops"],
                 "link" : "https://github.com/Andybf/Mandelbrot-Experiment",
                 "linkLiveDemo" : "https://andybf.github.io/Mandelbrot-Experiment/",
                 "isLiveDemoEnabled" : true,
-                "isViewSourceEnabled" : true,
                 "isVisible" : true
             }
         ]
