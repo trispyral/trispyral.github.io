@@ -6,6 +6,8 @@ async function initialize() {
     const response = await getDatabase();
     database = JSON.parse(response);
 
+    createShowroom(database);
+
     createProjectsItems(database)
 
     translateInterface(database['interfaceText'], "innerText");
@@ -13,15 +15,37 @@ async function initialize() {
     translateInterface(database['interface-placeholders'], "placeholder");
 
     document.querySelector('#projectDetails').style.display = 'None';
-    document.querySelector('.windowBackground').addEventListener('click', (event) => {
-        disableProjectDetails()
+    document.querySelector('.windowBackground').addEventListener('click', () => {
+        disableProjectDetails();
+    });
+    document.querySelector('#closeProjectDetails').addEventListener('click', () => {
+        disableProjectDetails();
     });
 }
 
-function disableProjectDetails () {
-    let projectDetailsDomStyle = document.querySelector('#projectDetails').style;
-    projectDetailsDomStyle.display = 'none';
-    document.querySelector('body').style.overflow = 'unset';
+function createShowroom(database) {
+    const dom_showroom = document.querySelector("div[class='page-showroom-container']");
+    let index = 0;
+    for(const project of database['content'].items) {
+        if (project.isVisible) {
+            if (index >= 7) {
+                break;
+            }
+            let showroomItem = document.createElement("div");
+            showroomItem.classList.add("showroom-item");
+
+            let showroomItemImg = document.createElement("img");
+            showroomItemImg.classList.add("showroom-item-img");
+            showroomItemImg.src = project.imgSrc;
+            showroomItemImg.title = project.name;
+            showroomItemImg.alt = project.name;
+            showroomItemImg.style.animationDelay = `${index*0.5}s`;
+            showroomItem.appendChild(showroomItemImg);
+
+            dom_showroom.appendChild(showroomItem);
+            index++
+        }
+    }
 }
 
 function createProjectsItems(database) {
@@ -67,6 +91,12 @@ function enableProjectDetails(event) {
     projectDom.querySelector('main').innerHTML = projectDate.description;
     projectDom.querySelector('a').href = projectDate.linkLiveDemo;
     projectDom.querySelector('a').innerText = database.interfaceText.pageCardPlayButton;
+}
+
+function disableProjectDetails() {
+    let projectDetailsDomStyle = document.querySelector('#projectDetails').style;
+    projectDetailsDomStyle.display = 'none';
+    document.querySelector('body').style.overflow = 'unset';
 }
 
 async function getDatabase() {
