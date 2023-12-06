@@ -147,7 +147,7 @@ div.page-showroom-container {
     overflow: hidden;
     transform: skewX(-10deg);
     border-left: 10px solid transparent;
-    opacity: 0.75;
+    opacity: 0.66;
     filter: saturate(0.75);
 }
 
@@ -162,7 +162,7 @@ div.page-showroom-container {
     }
 
     .showroom-item-img {
-        height: 30vh;
+        height: 20vh;
     }
 }
 

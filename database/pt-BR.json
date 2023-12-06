@@ -1,37 +1,29 @@
 {
     "interfaceText" : {
-        "topHeaderText" : "Making Games to bring joy among players",
-        "bottomHeaderText" : "Explore the library",
-        "pageCardPlayButton" : "play",
-        "contactEmail" : "Contact me by email, tell me something you want to share!",
-        "footer-title" : "Contact",
-        "footer-message" : "Want to share something? Have some idea for a project? Get in touch!",
-        "form-email-subject" : "Subject",
-        "form-email-body" : "Message",
-        "form-email-warning" : "*Requires an email client installed on your device."
+        "topHeaderText" : "Criando jogos para trazer alegria entre jogadores",
+        "bottomHeaderText" : "Conheça a biblioteca",
+        "pageCardPlayButton" : "Jogar",
+        "footer-title" : "Contato",
+        "footer-message" : "Quer compartilhar algo? Tem ideias para um projeto? Entre em contato!",
+        "form-email-subject" : "Assunto",
+        "form-email-body" : "Mensagem",
+        "form-email-warning" : "*Requer um app de email instalado em seu dispositivo."
     },
     "interface-values" : {
-        "form-submit-button" : "Send"
+        "form-submit-button" : "Enviar"
     },
     "interface-placeholders" : {
-        "form-email-subject-placeholder" : "Email subject",
-        "form-email-message-placeholder" : "Say something you want to share!"
+        "form-email-subject-placeholder" : "Assunto do email",
+        "form-email-message-placeholder" : "Diga algo que deseja compartilhar"
     },
     "content" : {
-        "title" : "My Projects",
-        "itemType" : "project",
-        "description" : [
-            "Here you'll find projects I've been working on independently, just for fun and a willingness to experiment algorithms with focus for simulations and virtual games.",
-            "Start the apps through the 'Live demo' button. To open the hood, and see how these machines work, use the 'Source code' button.",
-            "Enjoy yourself!"
-        ],
         "items" : [
             {
                 "name" : "Jump Man",
-                "category" : "Platform Game",
+                "category" : "Jogo de Plataforma",
                 "imgSrc" : "/media/img/jumpman.png",
-                "shortDescription" : "Collect the maximum amout of coins in a given time. Watchout for the spikes.",
-                "description" : "<p>A 2D platform game where the objective is to collect the maximum amout of coins in a given time.</p>",
+                "shortDescription" : "Colete o maior número de moedas antes do tempo acabar, fique de olho nos espinhos!",
+                "description" : "<p>Um jogo de plataforma 2D onde o objetivo é coletar a maior quantidade possível de moedas antes do tempo limite, quanto mais moedas em menos tempo, mais pontos ganha. Mas Fique de olho nos espinhos!</p><p>Agradecimentos a Open Game Art pelos efeitos sonoros.</p>",
                 "link" : "https://github.com/Andybf/JumpMan/",
                 "linkLiveDemo" : "https://andybf.github.io/JumpMan/",
                 "isLiveDemoEnabled" : true,
@@ -49,11 +41,11 @@
                 "isVisible" : true
             },
             {
-                "name" : "Terrain Generator",
-                "category" : "Tech demo",
+                "name" : "Gerador de Terreno",
+                "category" : "Demonstração Técnica",
                 "imgSrc" : "/media/img/terrain.png",
-                "shortDescription" : "The Terrain Generator is a tech demo, created to show the capabilites of procedural generation algorithms such as perlin noises",
-                "description" : "<p>The Terrain Generator is a tech demo, created to show the capabilites of procedural generation algorithms such as <a href='https://en.wikipedia.org/wiki/Perlin_noise'>perlin noises</a> to create a terrain simulation. With this, we can create some interesting landscapes with mountains, lakes, beaches and plains. The application offers all range of tools to customize the landscape as you wish, not only the terrain, but also the ambient around. </p><p>Everything is rendered with graphics acceleration, giving the best performance for desktops and mobile phones, directly from the web browser.</p>",
+                "shortDescription" : "O Gerador de Terreno é uma demonstração criada para mostrar o funcionamento de um algoritmo de geração procedural de ruídos.",
+                "description" : "<p>O Gerador de Terreno é uma demonstração criada para mostrar o funcionamento de um algoritmo de geração procedural de ruídos. Neste caso usando o <a href='https://en.wikipedia.org/wiki/Perlin_noise'>perlin noise</a>.<p></p>Esses algoritmos nos dão o poder de criar um mapa 3D com algumas paisagens interessantes, como montanhas, lagos, praias e planícies.<p></p>O aplicativo oferece toda uma gama de ferramentas para customizar a paisagem como desejar, não só o terreno, mas também o ambiente ao redor. </p><p>Tudo é renderizado com aceleração gráfica, dando o melhor desempenho para desktops e celulares, diretamente do navegador.</p>",
                 "link" : "https://github.com/Andybf/TerrainGenerator/",
                 "linkLiveDemo" : "https://andybf.github.io/TerrainGenerator/",
                 "isLiveDemoEnabled" : true,

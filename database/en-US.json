@@ -3,7 +3,6 @@
         "headerText" : "Making Games to bring joy among players",
         "bottomHeaderText" : "Explore the library",
         "pageCardPlayButton" : "play",
-        "contactEmail" : "Contact me by email, tell me something you want to share!",
         "footer-title" : "Contact",
         "footer-message" : "Want to share something? Have some idea for a project? Get in touch!",
         "form-email-subject" : "Subject",
@@ -18,13 +17,6 @@
         "form-email-message-placeholder" : "Say something you want to share!"
     },
     "content" : {
-        "title" : "My Projects",
-        "itemType" : "project",
-        "description" : [
-            "Here you'll find projects I've been working on independently, just for fun and a willingness to experiment algorithms with focus for simulations and virtual games.",
-            "Start the apps through the 'Live demo' button. To open the hood, and see how these machines work, use the 'Source code' button.",
-            "Enjoy yourself!"
-        ],
         "items" : [
             {
                 "name" : "Jump Man",
@@ -41,8 +33,8 @@
                 "name" : "SnakeGame",
                 "category" : "Jogo acelerado por hardware",
                 "imgSrc" : "/media/img/snakegame.webp",
-                "shortDescription" : "O famoso jogo da cobrinha, recriado mais uma vez em um plano bi-dimensional texturizado, com um tema retrô de 8-bits",
-                "description" : "<p>O famoso jogo da cobrinha, recriado mais uma vez em um plano bi-dimensional texturizado, com um tema retrô de 8-bits, referenciando a longevidade deste estilo de jogo desde que foi concebido pela primeira vez na década de 70.</p><p>Construído em C++, com a ajuda de biblioteca Icosphere e possibilidade de compilação para ambiente web, podemos combinar a facilidade de acesso em quase qualquer plataforma, seja para telefone e desktop, combinado com o nível de performance oferecida pela aceleração gráfica através da GPU de seu dispositivo.</p><p>Créditos para <a href='https://zapsplat.com' target='_blank'>zapsplat.com</a> pelos efeitos sonoros.</p>",
+                "shortDescription" : "The famous snake game, recreated once again in a textured two-dimensional plane, with an 8-bit retro theme",
+                "description" : "<p>The famous snake game, recreated once again in a textured two-dimensional plane, with an 8-bit retro theme, referencing the longevity of this game style since it was first conceived by the 70's and 80's.</p><p>Built in C++, with the help of the Icosphere library and the possibility of compiling it for the web environment, we can combine the ease of access on almost any platform, whether for phone or desktop, combined with the level of performance offered by the graphics solution through of your device's GPU.</p><p>Credits to <a href='https://zapsplat.com' target='_blank'>zapsplat.com</a> for the sound effects.</p>",
                 "link" : "https://github.com/Andybf/SnakeGame",
                 "linkLiveDemo" : "https://andybf.github.io/SnakeGame/SnakeGame/webRelease/",
                 "isLiveDemoEnabled" : true,
@@ -61,10 +53,10 @@
             },
             {
                 "name" : "Open Flappy",
-                "category" : "Jogo online",
+                "category" : "Online Game",
                 "imgSrc" : "/media/img/flappy.webp",
-                "shortDescription" : "Uma recriação do famoso jogo Flappy Bird, rodando diretamente do seu navegador.",
-                "description" : "<p>Uma recriação do famoso jogo Flappy Bird, rodando diretamente do seu navegador, adaptado para funcionar no celular ou no computador.</p><p>Créditos para <a href='https://zapsplat.com' target='_blank'>zapsplat.com</a> pelos efeitos sonoros e para <a href='https://opengameart.org/content/flappy-bird' target='_blank'>Peleila@opengameart.org</a> pela arte de jogo.</p>",
+                "shortDescription" : "A recreation from a famous game, Flappy Bird. Running directcly on your web browser, built to work on your cellphone or your computer.",
+                "description" : "<p>A recreation from a famous game, Flappy Bird. Running directcly on your web browser, built to work on your cellphone or your computer.</p><p>Credits to <a href='https://zapsplat.com' target='_blank'>zapsplat.com</a> for the sound effects and <a href='https://opengameart.org/content/flappy-bird' target='_blank'>Peleila@opengameart.org</a> for the art.</p>",
                 "link" : "https://github.com/Andybf/OpenFlappy/",
                 "linkLiveDemo" : "https://andybf.github.io/OpenFlappy/",
                 "isLiveDemoEnabled" : true,
@@ -72,10 +64,10 @@
             },
             {
                 "name" : "Mandelbrot Experiment",
-                "category" : "Experimento Visual",
+                "category" : "Visual Experiment",
                 "imgSrc" : "/media/img/mandelbrot.webp",
-                "shortDescription" : "O experimento do conjunto de Mandelbrot cria uma imagem muito interessante e extremamente complexa apenas fazendo algumas esquações matemáticas.",
-                "description" : "<p>O experimento do conjunto de Mandelbrot cria uma imagem muito interessante e extremamente complexa apenas fazendo algumas esquações matemáticas e desenhando o resultado no plano cartesiano.</p><p>Você pode ler mais sobre fractais <a href='https://pt.wikipedia.org/wiki/Conjunto_de_Mandelbrot'>neste artigo</a> da Wikipedia.</p><p><b>AVISO:</b> a renderização da imagem demanda uma quantidade de processamento que pode deixar a página sem resposta por alguns segundos.<p>",
+                "shortDescription" : "The experiment of Mandelbrot set creates an very interesting and extremly complex image by doing some math.",
+                "description" : "<p>The experiment of Mandelbrot set creates an very interesting and extremly complex image by doing some math and drawing the result on the cartesian plane.</p><p>You can learn more about fractals on <a href='https://en.wikipedia.org/wiki/Mandelbrot_set'>this article</a> on Wikipedia.</p><p><b>WARNING:</b> keep in mind that the rendering demands time and power from your computer, the page can be unresponsive for a couple of time, usually some seconds.</p>",
                 "link" : "https://github.com/Andybf/Mandelbrot-Experiment",
                 "linkLiveDemo" : "https://andybf.github.io/Mandelbrot-Experiment/",
                 "isLiveDemoEnabled" : true,
