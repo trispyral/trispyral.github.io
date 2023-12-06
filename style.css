@@ -143,10 +143,12 @@ div.page-showroom-container {
 }
 
 .showroom-item {
-    width: 15vw;
+    width: 20vw;
     overflow: hidden;
     transform: skewX(-10deg);
     border-left: 10px solid transparent;
+    opacity: 0.75;
+    filter: saturate(0.75);
 }
 
 .showroom-item-img {
@@ -168,7 +170,6 @@ div.page-showroom-container {
 
 main {
     min-height: 15vh;
-    //background-image: var(--header-background);
 }
 
 ul.projects-list {

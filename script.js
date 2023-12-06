@@ -80,7 +80,7 @@ function createProjectItem(databaseItem, index) {
 
 function enableProjectDetails(event) {
     let projectDetailsDomStyle = document.querySelector('#projectDetails').style;
-    projectDetailsDomStyle.display = 'unset';
+    projectDetailsDomStyle.display = 'flex';
     document.querySelector('body').style.overflow = 'hidden';
     let index =event.target.attributes.dataindex.nodeValue;
     let projectDate = database['content']['items'][index];

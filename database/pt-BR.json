@@ -40,7 +40,7 @@
             {
                 "name" : "SnakeGame",
                 "category" : "Jogo acelerado por hardware",
-                "imgSrc" : "/media/img/snakegame.webp",
+                "imgSrc" : "/media/img/snakegame.png",
                 "shortDescription" : "O famoso jogo da cobrinha, recriado mais uma vez em um plano bi-dimensional texturizado, com um tema retrô de 8-bits",
                 "description" : "<p>O famoso jogo da cobrinha, recriado mais uma vez em um plano bi-dimensional texturizado, com um tema retrô de 8-bits, referenciando a longevidade deste estilo de jogo desde que foi concebido pela primeira vez na década de 70.</p><p>Construído em C++, com a ajuda de biblioteca Icosphere e possibilidade de compilação para ambiente web, podemos combinar a facilidade de acesso em quase qualquer plataforma, seja para telefone e desktop, combinado com o nível de performance oferecida pela aceleração gráfica através da GPU de seu dispositivo.</p><p>Créditos para <a href='https://zapsplat.com' target='_blank'>zapsplat.com</a> pelos efeitos sonoros.</p>",
                 "link" : "https://github.com/Andybf/SnakeGame",
