@@ -134,6 +134,6 @@ button#closeProjectDetails {
     }
 
     button#closeProjectDetails {
-        transform: translate(93vw, 6vh);
+        transform: translate(93vw, 10vh);
     }
 }

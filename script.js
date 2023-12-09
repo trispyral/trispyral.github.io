@@ -6,8 +6,6 @@ async function initialize() {
     const response = await getDatabase();
     database = JSON.parse(response);
 
-    createShowroom(database);
-
     createProjectsItems(database)
 
     translateInterface(database['interfaceText'], "innerText");
@@ -21,31 +19,6 @@ async function initialize() {
     document.querySelector('#closeProjectDetails').addEventListener('click', () => {
         disableProjectDetails();
     });
-}
-
-function createShowroom(database) {
-    const dom_showroom = document.querySelector("div[class='page-showroom-container']");
-    let index = 0;
-    for(const project of database['content'].items) {
-        if (project.isVisible) {
-            if (index >= 7) {
-                break;
-            }
-            let showroomItem = document.createElement("div");
-            showroomItem.classList.add("showroom-item");
-
-            let showroomItemImg = document.createElement("img");
-            showroomItemImg.classList.add("showroom-item-img");
-            showroomItemImg.src = project.imgSrc;
-            showroomItemImg.title = project.name;
-            showroomItemImg.alt = project.name;
-            showroomItemImg.style.animationDelay = `${index*0.5}s`;
-            showroomItem.appendChild(showroomItemImg);
-
-            dom_showroom.appendChild(showroomItem);
-            index++
-        }
-    }
 }
 
 function createProjectsItems(database) {

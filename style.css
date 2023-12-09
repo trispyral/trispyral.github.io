@@ -91,19 +91,12 @@ h2.alternateColor {
     color: var(--global-font-color-alternative);
 }
 
-.topHeaderText {
-    text-shadow: 2px 2px 5px var(--shadow-color);
-    font-size: 22pt;
-    padding: 8vh 4vw;
-    background-image: var(--header-background);
-}
-
 h3 {
     font-size: 16pt;
 }
 
 h3.bottomHeaderText {
-    padding: 6vh 4vw;
+    padding: 4vh 4vw;
     padding-bottom: 2vh;
 }
 
@@ -119,50 +112,62 @@ header > section.bottomHeader {
     align-items: flex-end;
 }
 
+#pageHeader > section:first-child {
+    background-image: var(--header-background);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    height: 40vh;
+    width: 100%;
+}
+
+#pageHeader > section > div {
+    background-image: url(media/icons/logo.svg);
+    background-position: 0vh -13vh;
+    background-size: 100%;
+    width: 70vh;
+    height: 70vh;
+    transform: translate(0vw, 6vh) rotate(23deg);
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topHeaderText {
+    text-shadow: 2px 2px 5px var(--shadow-color);
+    font-size: 25pt;
+    padding: 8vh 4vw;
+    z-index: 0;
+    width: 50%;
+}
+
+#pageHeader > section:nth-child(2) {
+    background-color: var(--second-background);
+    padding: 4vh 4vw;
+}
+
+#pageHeader > section:nth-child(2) > h3 {
+    width: 50%;
+}
+
 @media(max-width: 768px) {
 
     .topHeaderText {
         padding: 4vh 4vw;
     }
-}
 
-/* Showroom ================================================================= */
-
-section.page-showroom {
-    padding-top: 70px;
-    overflow: hidden;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-image: var(--header-background-inverse);
-}
-
-div.page-showroom-container {
-    display: inline-flex;
-    opacity: 1.0;
-}
-
-.showroom-item {
-    width: 20vw;
-    overflow: hidden;
-    transform: skewX(-10deg);
-    border-left: 10px solid transparent;
-    opacity: 0.66;
-    filter: saturate(0.75);
-}
-
-.showroom-item-img {
-    height: 40vh;
-    transform: skewX(10deg) translateX(-150px) scale(1.05);
-}
-
-@media(max-width: 1366px) {
-    .showroom-item {
-        width: 20vw;
+    #pageHeader > section:first-child {
+        height: 70vh;
     }
 
-    .showroom-item-img {
-        height: 20vh;
+    #pageHeader > section > div {
+        transform: translate(15vw, -6vh) rotate(23deg);
+    }
+
+    #pageHeader > section:nth-child(2) > h3 {
+        width: 100%;
     }
 }
 
@@ -350,5 +355,3 @@ section.bottom-footer {
         padding: 1rem;
     }
 }
-
-/* Mobile rules ============================================================ */

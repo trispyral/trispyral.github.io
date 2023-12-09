@@ -1,6 +1,7 @@
 {
     "interfaceText" : {
         "topHeaderText" : "Criando jogos para trazer alegria entre jogadores",
+        "topHeaderSecondText" : "Um estúdio de criação de jogos independentes. Concebido para dar origem a jogos que ofereçam a verdadeira experiência arcade e casual, nos moldes dos jogos de fliperama.",
         "bottomHeaderText" : "Conheça a biblioteca",
         "pageCardPlayButton" : "Jogar",
         "footer-title" : "Contato",
