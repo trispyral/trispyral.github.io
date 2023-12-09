@@ -25,8 +25,7 @@
                 "imgSrc" : "/media/img/jumpman.png",
                 "shortDescription" : "Collect the maximum amout of coins in a given time. Watchout for the spikes.",
                 "description" : "<p>A 2D platform game where the objective is to collect the maximum amout of coins in a given time.</p>",
-                "link" : "https://github.com/Andybf/JumpMan/",
-                "linkLiveDemo" : "https://andybf.github.io/JumpMan/",
+                "linkLiveDemo" : "https://trispyral.github.io/JumpMan/",
                 "isLiveDemoEnabled" : true,
                 "isVisible" : true
             },
@@ -36,7 +35,6 @@
                 "imgSrc" : "/media/img/snakegame.webp",
                 "shortDescription" : "The famous snake game, recreated once again in a textured two-dimensional plane, with an 8-bit retro theme",
                 "description" : "<p>The famous snake game, recreated once again in a textured two-dimensional plane, with an 8-bit retro theme, referencing the longevity of this game style since it was first conceived by the 70's and 80's.</p><p>Built in C++, with the help of the Icosphere library and the possibility of compiling it for the web environment, we can combine the ease of access on almost any platform, whether for phone or desktop, combined with the level of performance offered by the graphics solution through of your device's GPU.</p><p>Credits to <a href='https://zapsplat.com' target='_blank'>zapsplat.com</a> for the sound effects.</p>",
-                "link" : "https://github.com/Andybf/SnakeGame",
                 "linkLiveDemo" : "https://andybf.github.io/SnakeGame/SnakeGame/webRelease/",
                 "isLiveDemoEnabled" : true,
                 "isVisible" : true
@@ -47,7 +45,6 @@
                 "imgSrc" : "/media/img/terrain.png",
                 "shortDescription" : "The Terrain Generator is a tech demo, created to show the capabilites of procedural generation algorithms such as perlin noises",
                 "description" : "<p>The Terrain Generator is a tech demo, created to show the capabilites of procedural generation algorithms such as <a href='https://en.wikipedia.org/wiki/Perlin_noise'>perlin noises</a> to create a terrain simulation. With this, we can create some interesting landscapes with mountains, lakes, beaches and plains. The application offers all range of tools to customize the landscape as you wish, not only the terrain, but also the ambient around. </p><p>Everything is rendered with graphics acceleration, giving the best performance for desktops and mobile phones, directly from the web browser.</p>",
-                "link" : "https://github.com/Andybf/TerrainGenerator/",
                 "linkLiveDemo" : "https://andybf.github.io/TerrainGenerator/",
                 "isLiveDemoEnabled" : true,
                 "isVisible" : true
@@ -58,7 +55,6 @@
                 "imgSrc" : "/media/img/flappy.webp",
                 "shortDescription" : "A recreation from a famous game, Flappy Bird. Running directcly on your web browser, built to work on your cellphone or your computer.",
                 "description" : "<p>A recreation from a famous game, Flappy Bird. Running directcly on your web browser, built to work on your cellphone or your computer.</p><p>Credits to <a href='https://zapsplat.com' target='_blank'>zapsplat.com</a> for the sound effects and <a href='https://opengameart.org/content/flappy-bird' target='_blank'>Peleila@opengameart.org</a> for the art.</p>",
-                "link" : "https://github.com/Andybf/OpenFlappy/",
                 "linkLiveDemo" : "https://andybf.github.io/OpenFlappy/",
                 "isLiveDemoEnabled" : true,
                 "isVisible" : true
@@ -69,7 +65,6 @@
                 "imgSrc" : "/media/img/mandelbrot.webp",
                 "shortDescription" : "The experiment of Mandelbrot set creates an very interesting and extremly complex image by doing some math.",
                 "description" : "<p>The experiment of Mandelbrot set creates an very interesting and extremly complex image by doing some math and drawing the result on the cartesian plane.</p><p>You can learn more about fractals on <a href='https://en.wikipedia.org/wiki/Mandelbrot_set'>this article</a> on Wikipedia.</p><p><b>WARNING:</b> keep in mind that the rendering demands time and power from your computer, the page can be unresponsive for a couple of time, usually some seconds.</p>",
-                "link" : "https://github.com/Andybf/Mandelbrot-Experiment",
                 "linkLiveDemo" : "https://andybf.github.io/Mandelbrot-Experiment/",
                 "isLiveDemoEnabled" : true,
                 "isVisible" : true
