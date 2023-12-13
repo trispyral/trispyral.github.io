@@ -62,10 +62,10 @@
             {
                 "name" : "Mandelbrot Experiment",
                 "category" : "Experimento Visual",
-                "imgSrc" : "/media/img/mandelbrot.webp",
+                "imgSrc" : "/media/img/mandelbrot.png",
                 "shortDescription" : "O experimento do conjunto de Mandelbrot cria uma imagem muito interessante e extremamente complexa apenas fazendo algumas esquações matemáticas.",
                 "description" : "<p>O experimento do conjunto de Mandelbrot cria uma imagem muito interessante e extremamente complexa apenas fazendo algumas esquações matemáticas e desenhando o resultado no plano cartesiano.</p><p>Você pode ler mais sobre fractais <a href='https://pt.wikipedia.org/wiki/Conjunto_de_Mandelbrot'>neste artigo</a> da Wikipedia.</p><p><b>AVISO:</b> a renderização da imagem demanda uma quantidade de processamento que pode deixar a página sem resposta por alguns segundos.<p>",
-                "linkLiveDemo" : "https://andybf.github.io/Mandelbrot-Experiment/",
+                "linkLiveDemo" : "https://trispyral.github.io/Mandelbrot/",
                 "isLiveDemoEnabled" : true,
                 "isVisible" : true
             }

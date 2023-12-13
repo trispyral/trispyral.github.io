@@ -1,6 +1,6 @@
 {
     "interfaceText" : {
-        "headerText" : "Making Games to bring joy among players",
+        "topHeaderText" : "Making Games to bring joy among players",
         "topHeaderSecondText" : "A independent game studio. Born to make games that offer the true arcade and casual experience, inspired by the old arcade games.",
         "bottomHeaderText" : "Explore the library",
         "pageCardPlayButton" : "play",
@@ -32,7 +32,7 @@
             {
                 "name" : "SnakeGame",
                 "category" : "Jogo acelerado por hardware",
-                "imgSrc" : "/media/img/snakegame.webp",
+                "imgSrc" : "/media/img/snakegame.png",
                 "shortDescription" : "The famous snake game, recreated once again in a textured two-dimensional plane, with an 8-bit retro theme",
                 "description" : "<p>The famous snake game, recreated once again in a textured two-dimensional plane, with an 8-bit retro theme, referencing the longevity of this game style since it was first conceived by the 70's and 80's.</p><p>Built in C++, with the help of the Icosphere library and the possibility of compiling it for the web environment, we can combine the ease of access on almost any platform, whether for phone or desktop, combined with the level of performance offered by the graphics solution through of your device's GPU.</p><p>Credits to <a href='https://zapsplat.com' target='_blank'>zapsplat.com</a> for the sound effects.</p>",
                 "linkLiveDemo" : "https://andybf.github.io/SnakeGame/SnakeGame/webRelease/",
@@ -62,10 +62,10 @@
             {
                 "name" : "Mandelbrot Experiment",
                 "category" : "Visual Experiment",
-                "imgSrc" : "/media/img/mandelbrot.webp",
+                "imgSrc" : "/media/img/mandelbrot.png",
                 "shortDescription" : "The experiment of Mandelbrot set creates an very interesting and extremly complex image by doing some math.",
                 "description" : "<p>The experiment of Mandelbrot set creates an very interesting and extremly complex image by doing some math and drawing the result on the cartesian plane.</p><p>You can learn more about fractals on <a href='https://en.wikipedia.org/wiki/Mandelbrot_set'>this article</a> on Wikipedia.</p><p><b>WARNING:</b> keep in mind that the rendering demands time and power from your computer, the page can be unresponsive for a couple of time, usually some seconds.</p>",
-                "linkLiveDemo" : "https://andybf.github.io/Mandelbrot-Experiment/",
+                "linkLiveDemo" : "https://trispyral.github.io/Mandelbrot/",
                 "isLiveDemoEnabled" : true,
                 "isVisible" : true
             }
