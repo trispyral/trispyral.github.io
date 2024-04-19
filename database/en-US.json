@@ -20,6 +20,16 @@
     "content" : {
         "items" : [
             {
+                "name" : "Planet Earth",
+                "category" : "Graphics Demo",
+                "imgSrc" : "/media/img/planetEarth.png",
+                "shortDescription" : "A realistic Earth model with realtime data.",
+                "description" : "<p>A 3D photorealistic Earth model with realtime climatic data. Provided by <a href='https://openweathermap.org/'>OpenWeather</a></p>",
+                "linkLiveDemo" : "https://trispyral.github.io/PlanetEarth/",
+                "isLiveDemoEnabled" : true,
+                "isVisible" : true
+            },
+            {
                 "name" : "Jump Man",
                 "category" : "Platform Game",
                 "imgSrc" : "/media/img/jumpman.png",
