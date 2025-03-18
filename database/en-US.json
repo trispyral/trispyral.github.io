@@ -22,7 +22,7 @@
             {
                 "name" : "DVD Logo Bouncing",
                 "category" : "Demonstração Gráfica",
-                "imgSrc" : "/media/img/dvdlogo.png",
+                "imgSrc" : "/media/img/dvdLogo.png",
                 "shortDescription" : "The famous screen protector from the DVD devices from the 2000's",
                 "description" : "<p>The famous screen protector from the DVD devices from the 2000's</p>",
                 "linkLiveDemo" : "https://trispyral.github.io/DvdLogoBouncing/",
