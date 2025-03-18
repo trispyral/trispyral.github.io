@@ -1,7 +1,7 @@
 {
     "interfaceText" : {
-        "topHeaderText" : "Criando jogos para trazer alegria entre jogadores",
-        "topHeaderSecondText" : "Um estúdio de criação de jogos independentes. Concebido para dar origem a jogos que ofereçam a verdadeira experiência arcade e casual, nos moldes dos jogos de fliperama.",
+        "topHeaderText" : "A verdadeira arte 3D",
+        "topHeaderSecondText" : "Um estúdio de arte 3D independente. Concebido para dar origem a jogos e demos que ofereçam a verdadeira experiência arcade e casual, nos moldes dos jogos de fliperama.",
         "bottomHeaderText" : "Conheça a biblioteca",
         "pageCardPlayButton" : "Jogar",
         "footer-title" : "Contato",
@@ -19,6 +19,16 @@
     },
     "content" : {
         "items" : [
+            {
+                "name" : "DVD Logo Bouncing",
+                "category" : "Demonstração Gráfica",
+                "imgSrc" : "/media/img/dvdlogo.png",
+                "shortDescription" : "A famosa proteção de tela dos aparelhos de DVD dos anos 2000.",
+                "description" : "<p>A famosa proteção de tela dos aparelhos de DVD dos anos 2000.</p>",
+                "linkLiveDemo" : "https://trispyral.github.io/DvdLogoBouncing/",
+                "isLiveDemoEnabled" : true,
+                "isVisible" : true
+            },
             {
                 "name" : "Planet Earth",
                 "category" : "Demonstração Gráfica",

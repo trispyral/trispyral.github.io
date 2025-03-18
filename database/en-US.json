@@ -1,7 +1,7 @@
 {
     "interfaceText" : {
-        "topHeaderText" : "Making Games to bring joy among players",
-        "topHeaderSecondText" : "A independent game studio. Born to make games that offer the true arcade and casual experience, inspired by the old arcade games.",
+        "topHeaderText" : "The true 3D art",
+        "topHeaderSecondText" : "A independent 3D art studio. Born to make games and demos that offer the casual experience, inspired by the old arcade games.",
         "bottomHeaderText" : "Explore the library",
         "pageCardPlayButton" : "play",
         "footer-title" : "Contact",
@@ -19,6 +19,16 @@
     },
     "content" : {
         "items" : [
+            {
+                "name" : "DVD Logo Bouncing",
+                "category" : "Demonstração Gráfica",
+                "imgSrc" : "/media/img/dvdlogo.png",
+                "shortDescription" : "The famous screen protector from the DVD devices from the 2000's",
+                "description" : "<p>The famous screen protector from the DVD devices from the 2000's</p>",
+                "linkLiveDemo" : "https://trispyral.github.io/DvdLogoBouncing/",
+                "isLiveDemoEnabled" : true,
+                "isVisible" : true
+            },
             {
                 "name" : "Planet Earth",
                 "category" : "Graphics Demo",
